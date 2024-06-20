@@ -1,3 +1,4 @@
+import Navbar from './Navbar';
 import Home from './home/Home';
 
 function App() {
@@ -5,6 +6,8 @@ function App() {
     <div className='App'>
 
       <div className='content'>
+
+        <Navbar />
 
         <Home />
         
